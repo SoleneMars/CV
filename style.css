@@ -55,7 +55,6 @@ nav
   font-family: 'Satisfy', cursive;
   color:#395f6b;
   font-size:25pt;
-  border-bottom: solid 1px #d5e0e3;
 }
 
 .header h2
@@ -64,12 +63,18 @@ nav
   font-family: "Dancing Script", cursive;
 }
 
+/* Ligne de séparation header - section */
+
+hr
+{
+  border-top: double 1px #d5e0e3;
+  width:90%;
+}
 /* Section */
 
 .section
 {
   width: 98%;
-  border-top: solid 1px #d5e0e3;
   margin-top:0.5em;
   margin-bottom:0em;
   display:flex;
@@ -136,6 +141,14 @@ nav
 .article h1
 {
  font-family: "Dancing Script", cursive;
+}
+
+/* Image */ 
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 550px;
 }
 
 /* Post */ 

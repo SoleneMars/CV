@@ -1,4 +1,4 @@
-/* Ma page web -
+ /* Ma page web -
    Solène Marziale
 */
 
@@ -37,12 +37,14 @@ nav {
     margin-left: 2%;
     margin-right: 2%;
     text-decoration: none;
+    color: #3f7d91;
+    font-size: 25pt;
 }
 
-.icon a {
-    color: #3f7d91;
-    text-decoration: none;
-    font-size: 25pt;
+.icon a
+{
+  color: #3f7d91;
+  text-decoration: none;
 }
 
 .icon a:hover {
@@ -118,11 +120,6 @@ hr.second {
 .aside h1 {
     text-align: center;
     font-family: "Dancing Script", cursive;
-}
-
-
-#fixedTitreAside {
-    background-color: #ffffff;
 }
 
 #titreAside {
